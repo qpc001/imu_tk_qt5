@@ -1,0 +1,33 @@
+/usr/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_C_COMPILER=/usr/bin/gcc -DCMAKE_CXX_COMPILER=/usr/bin/g++ -G "CodeBlocks - Unix Makefiles" /home/msi/shared_dir/tools/imu_calibration/imu_tk
+-- The C compiler identification is GNU 10.2.0
+-- The CXX compiler identification is GNU 10.2.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/gcc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/g++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found Boost: /usr/lib64/cmake/Boost-1.72.0/BoostConfig.cmake (found version "1.72.0")  
+CMake Error at CMakeLists.txt:16 (find_package):
+  By not providing "FindCeres.cmake" in CMAKE_MODULE_PATH this project has
+  asked CMake to find a package configuration file provided by "Ceres", but
+  CMake did not find one.
+
+  Could not find a package configuration file provided by "Ceres" with any of
+  the following names:
+
+    CeresConfig.cmake
+    ceres-config.cmake
+
+  Add the installation prefix of "Ceres" to CMAKE_PREFIX_PATH or set
+  "Ceres_DIR" to a directory containing one of the above files.  If "Ceres"
+  provides a separate development package or SDK, be sure it has been
+  installed.
+
+
+-- Configuring incomplete, errors occurred!
+See also "/home/msi/shared_dir/tools/imu_calibration/imu_tk/cmake-build-debug/CMakeFiles/CMakeOutput.log".
